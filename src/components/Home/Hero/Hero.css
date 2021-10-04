@@ -1,0 +1,21 @@
+.hero {
+  background-image: url("../../../images/hero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 68vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  font-size: 3.75rem;
+}
+.hero p {
+  color: #fff;
+  margin: 1.2rem 0;
+}

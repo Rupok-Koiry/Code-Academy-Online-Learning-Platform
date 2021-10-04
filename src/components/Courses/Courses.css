@@ -1,0 +1,122 @@
+.courses {
+  margin: 50px 0;
+}
+.courses h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #4255a4;
+  text-align: center;
+}
+.properties {
+  margin: 0 15px;
+}
+
+.properties.properties2 {
+  margin-bottom: 30px;
+}
+
+.properties__card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.properties__card:hover {
+  box-shadow: 0 8px 8px 0 rgba(2, 25, 65, 0.08);
+}
+
+.properties__img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.properties__caption {
+  padding: 29px 20px 20px 20px;
+}
+
+.properties__caption h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .properties__caption h3 {
+    font-size: 16px;
+  }
+}
+
+.properties__caption h3 a {
+  text-decoration: underline transparent;
+}
+
+.properties__caption h3 a:hover {
+  text-decoration: underline;
+  color: #4255a4;
+}
+
+.properties__caption p {
+  color: #6e7697;
+}
+
+.properties__caption p span {
+  color: #c86fff;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .properties__caption P span {
+    font-size: 12px;
+  }
+}
+
+.properties__footer {
+  margin-bottom: 22px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media (max-width: 575px) {
+  .properties__footer {
+    padding: 19px 10px 20px 12px;
+  }
+}
+
+.properties__footer .restaurant-name p {
+  display: inline-block;
+  color: #6e7697;
+}
+
+.properties__footer .restaurant-name p span {
+  color: #ff7b2e;
+  font-size: 12px;
+}
+
+.properties__footer .price span {
+  cursor: pointer;
+  font-weight: 700;
+  color: #4255a4;
+  font-size: 23px;
+}
+
+.properties:hover .border-btn2 {
+  color: #fff;
+  background: #ff9f67;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.rating span {
+  font-size: 14px;
+  color: #ff7b2e;
+}

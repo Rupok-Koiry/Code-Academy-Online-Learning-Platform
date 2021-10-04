@@ -1,0 +1,124 @@
+.ftco-section {
+  padding: 2em 0;
+}
+.ftco-no-pt {
+  padding-top: 0;
+}
+.ftco-no-pb {
+  padding-bottom: 0;
+}
+.heading-section {
+  font-weight: 600;
+  font-size: 42px;
+  color: #4255a4;
+  font-family: "Josefin Sans", sans-serif;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.form-control {
+  height: 44px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  border-radius: 2px;
+  box-shadow: none !important;
+  border: none;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+.form-control:-ms-input-placeholder {
+  /* IE 0+ */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+.form-control:focus,
+.form-control:active {
+  border-color: #2553b8 !important;
+}
+textarea.form-control {
+  height: inherit !important;
+}
+.wrapper {
+  width: 100%;
+}
+.contact-wrap {
+  background: #e8edf0;
+}
+.dbox {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0 20px;
+}
+.dbox p {
+  margin-bottom: 0;
+}
+.dbox p span {
+  font-weight: 500;
+}
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(100, 116, 255);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.dbox .icon span {
+  font-size: 20px;
+  color: #fff;
+}
+.dbox .text {
+  width: 100%;
+  text-decoration: none;
+  color: #ff9f67;
+  font-weight: 600;
+}
+.dbox .text span {
+  color: #000;
+}
+
+.contactForm .label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.contactForm .form-control {
+  border: none;
+}
+#map {
+  width: 100%;
+}
+#contactForm .error {
+  color: red;
+  font-size: 12px;
+}
+#contactForm .form-control {
+  font-size: 16px;
+  border-radius: 8px;
+}
+#message {
+  resize: none;
+}
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-size: 16px;
+  font-weight: 500;
+}
