@@ -1,3 +1,4 @@
+/* Hero feature section css */
 .hero-feature {
   transform: translateY(-50%);
 }
@@ -6,9 +7,21 @@
   padding: 40px 20px;
   border-radius: 5px;
   background-color: #fff;
+  height: 100%;
 }
 .feature-content h3 {
   font-size: 24px;
+}
+@media screen and (max-width: 1024px) {
+  .hero-feature {
+    transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 992px) {
+  .feature-content h3 {
+    margin: 15px 0 8px 0;
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .hero-feature {

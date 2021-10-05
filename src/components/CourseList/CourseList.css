@@ -1,14 +1,4 @@
-.courses {
-  margin: 50px 0;
-}
-.courses h2 {
-  font-size: 42px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  font-family: "Josefin Sans", sans-serif;
-  color: #4255a4;
-  text-align: center;
-}
+/* CoursesList section css */
 .properties {
   margin: 0 15px;
 }

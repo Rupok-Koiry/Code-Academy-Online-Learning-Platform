@@ -9,6 +9,7 @@ const imgStyle = {
 const NotFound = () => {
   const history = useHistory();
   return (
+    /* 404 Page */
     <div className="text-center my-5">
       <div>
         <img style={imgStyle} src={notFoundImg} alt="Page not found" />

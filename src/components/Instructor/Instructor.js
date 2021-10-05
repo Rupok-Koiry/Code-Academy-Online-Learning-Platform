@@ -7,12 +7,12 @@ import andrei from "../../images/andrei.jpg";
 const Instructor = () => {
   return (
     /* Instructor Section */
-    <section className="team-area">
+    <section className="instructor-area">
       <div className="container">
         <h2>Community experts</h2>
-        <div className="row">
-          <div className="col-lg-3 col-md-6 col-xs-12">
-            <div className="single-team">
+        <div className="row gy-3">
+          <div className="col-xl-3 col-md-6 col-xs-12">
+            <div className="single-instructor">
               <div className="img-area">
                 <img src={angela} className="img-responsive" alt="angela" />
                 <div className="social">
@@ -46,8 +46,8 @@ const Instructor = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-xs-12">
-            <div className="single-team">
+          <div className="col-xl-3 col-md-6 col-xs-12">
+            <div className="single-instructor">
               <div className="img-area">
                 <img src={jonas} className="img-responsive" alt="jonas" />
                 <div className="social">
@@ -81,8 +81,8 @@ const Instructor = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-xs-12">
-            <div className="single-team">
+          <div className="col-xl-3 col-md-6 col-xs-12">
+            <div className="single-instructor">
               <div className="img-area">
                 <img src={andrei} className="img-responsive" alt="yahoo" />
                 <div className="social">
@@ -116,8 +116,8 @@ const Instructor = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-xs-12">
-            <div className="single-team">
+          <div className="col-xl-3 col-md-6 col-xs-12">
+            <div className="single-instructor">
               <div className="img-area">
                 <img src={max} className="img-responsive" alt="max" />
                 <div className="social">

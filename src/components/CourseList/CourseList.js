@@ -1,23 +1,15 @@
 import React from "react";
 import Rating from "react-rating";
-
+import "./CourseList.css";
 const numberWithCommas = (num) => {
   return num?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
-const CoursesList = (props) => {
-  const {
-    course_name,
-    image,
-    category,
-    description,
-    duration,
-    price,
-    rating,
-    reviews,
-  } = props.course;
+const CourseList = (props) => {
+  const { course_name, image, category, duration, price, rating, reviews } =
+    props.course;
 
   return (
-    <div className="col-xl-4">
+    <div className="col-xl-4 col-md-6">
       <div className="properties" data-slick-index="-3" aria-hidden="true">
         <div className="properties__card">
           <div className="properties__img">
@@ -58,4 +50,4 @@ const CoursesList = (props) => {
   );
 };
 
-export default CoursesList;
+export default CourseList;

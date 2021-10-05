@@ -1,14 +1,14 @@
 import React from "react";
-import courses from "../../../images/courses.svg";
-import teacher from "../../../images/teacher.svg";
-import access from "../../../images/access.svg";
+import courses from "../../images/courses.svg";
+import teacher from "../../images/teacher.svg";
+import access from "../../images/access.svg";
 import "./HeroFeature.css";
 const HeroFeature = () => {
   return (
     /*Hero Feature Section */
     <section className="hero-feature">
       <div className="container">
-        <div className="row">
+        <div className="row gy-3">
           <div className="col-md-4">
             <div className="feature-div">
               <div className="row">

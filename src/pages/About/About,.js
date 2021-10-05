@@ -1,9 +1,10 @@
 import React from "react";
-import Instructor from "../Instructor/Instructor";
-import Faq from "./Faq/Faq";
+import Instructor from "../../components/Instructor/Instructor";
+import Faq from "../../components/Faq/Faq";
 
 const About = () => {
   return (
+    /* About Page */
     <>
       <Instructor />
       <Faq />

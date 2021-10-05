@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
-import CourseList from "../../Courses/CoursesList";
+import CourseList from "../CourseList/CourseList";
 
 const HomeCourses = () => {
   const [courses, setCourses] = useState([]);
   const history = useHistory();
   useEffect(() => {
+    /* Data load from fake api */
     const loadCourses = async () => {
       const response = await fetch("./api.json");
       const responseData = await response.json();

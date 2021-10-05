@@ -2,17 +2,17 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Switch } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-import Home from "./components/Home/Home";
-import About from "./components/About/About,";
-import Courses from "./components/Courses/Courses";
-import Contact from "./components/Contact/Contact";
-import NotFound from "./components/NotFound/NotFound";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About,";
+import Courses from "./pages/Courses/Courses";
+import Contact from "./pages/Contact/Contact";
+import NotFound from "./pages/NotFound/NotFound";
 function App() {
   return (
     /* Route definition */
     <Layout>
       <Switch>
-        {/* Home  page path*/}
+        {/* Home  page path */}
         <Route exact path="/">
           <Home />
         </Route>

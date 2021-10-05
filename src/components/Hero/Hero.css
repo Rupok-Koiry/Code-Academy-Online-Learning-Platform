@@ -1,5 +1,6 @@
+/* Hero section css */
 .hero {
-  background-image: url("../../../images/hero.webp");
+  background-image: url("../../images/hero.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

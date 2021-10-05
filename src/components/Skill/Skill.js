@@ -8,7 +8,7 @@ const Skill = () => {
     /* Skill Section */
     <section className="skill">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="skill-icon">
               <img src={skillIcon} alt="skill" />

@@ -11,10 +11,9 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <div className="footer-col">
               <img src={logo} alt="logo" width="200" />
-              <p className="mt-4">
-                Codeacademy is a online learning platform where you can learn
-                programing, digital marketing seo, ai etc. Which will help you
-                to become a highly professional on specific fields
+              <p className="mt-3">
+                Code Academy is a online learning platform which will help you
+                to become a highly professional on specific fields.
               </p>
             </div>
           </div>

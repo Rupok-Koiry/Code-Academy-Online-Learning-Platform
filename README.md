@@ -2,7 +2,7 @@
 
 ## Live link of Code Academy [https://code-academy-rupok.netlify.app/](https://code-academy-rupok.netlify.app/)
 
-### Features of coding hero
+### Features of Code Academy
 
 - Code Academy website is created with React & Bootstrap framework
 - This website is for the most prominent online courses around the world
