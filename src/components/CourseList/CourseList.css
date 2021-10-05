@@ -17,7 +17,7 @@
 }
 
 .properties__card:hover {
-  box-shadow: 0 8px 8px 0 rgba(2, 25, 65, 0.08);
+  box-shadow: 0 8px 8px 0 rgba(2, 25, 65, 0.25);
 }
 
 .properties__img img {
